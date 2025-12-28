@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cosmic-navy font-body text-starlight-white;
+    background-image:
+      radial-gradient(ellipse at 20% 30%, rgba(89, 12, 87, 0.3) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 70%, rgba(26, 18, 51, 0.4) 0%, transparent 50%);
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold text-starlight-white;
+  }
+
+  * {
+    @apply border-0;
+  }
+}
+
+@layer utilities {
+  .glow-gold {
+    box-shadow: 0 0 20px rgba(255, 157, 0, 0.5);
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+
+  .text-glow-gold {
+    text-shadow: 0 0 10px rgba(255, 157, 0, 0.6);
+  }
+
+  .text-glow-magenta {
+    text-shadow: 0 2px 8px rgba(89, 12, 87, 0.8);
+  }
+
+  .hard-shadow-gold {
+    box-shadow: 4px 4px 0 rgba(255, 157, 0, 0.3);
+  }
+
+  .hard-shadow-cyan {
+    box-shadow: 4px 4px 0 rgba(0, 255, 255, 0.3);
+  }
+}

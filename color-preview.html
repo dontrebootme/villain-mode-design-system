@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villain Mode - Color Scheme Options</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #000;
+            color: #fff;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 40px;
+        }
+
+        .schemes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .scheme {
+            border: 2px solid #333;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .scheme-header {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #333;
+        }
+
+        .scheme-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .scheme-desc {
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .swatches {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .swatch {
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .swatch-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .swatch-hex {
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            opacity: 0.9;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .preview {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .current {
+            border-color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Villain Mode Color Scheme Options</h1>
+        <p class="subtitle">Choose your cosmic energy palette</p>
+
+        <div class="schemes">
+            <!-- Current (Purple) -->
+            <div class="scheme current">
+                <div class="scheme-header" style="background: #1A1233;">
+                    <div class="scheme-name" style="color: #FF9D00;">Current (Purple)</div>
+                    <div class="scheme-desc">Original design with purple tones</div>
+                </div>
+                <div class="swatches">
+                    <div class="swatch" style="background: #0D0F26;">
+                        <div class="swatch-name">Deep Cosmic Navy</div>
+                        <div class="swatch-hex">#0D0F26</div>
+                    </div>
+                    <div class="swatch" style="background: #1A1233;">
+                        <div class="swatch-name">Abyssal Purple</div>
+                        <div class="swatch-hex">#1A1233</div>
+                    </div>
+                    <div class="swatch" style="background: #590C57;">
+                        <div class="swatch-name">Nebula Magenta</div>
+                        <div class="swatch-hex">#590C57</div>
+                    </div>
+                </div>
+                <div class="preview" style="background: #1A1233; border: 2px solid #590C57;">
+                    <div style="color: #FF9D00; font-weight: bold; margin-bottom: 8px;">Sample Card</div>
+                    <div style="color: #EAEAEA; font-size: 0.9rem;">Purple-toned cosmic background</div>
+                </div>
+            </div>
+
+            <!-- Option 1: Deep Blue/Teal -->
+            <div class="scheme">
+                <div class="scheme-header" style="background: #0A1628;">
+                    <div class="scheme-name" style="color: #00FFFF;">Deep Blue/Teal</div>
+                    <div class="scheme-desc">Oceanic depths with teal energy</div>
+                </div>
+                <div class="swatches">
+                    <div class="swatch" style="background: #0A0E1A;">
+                        <div class="swatch-name">Void Black-Blue</div>
+                        <div class="swatch-hex">#0A0E1A</div>
+                    </div>
+                    <div class="swatch" style="background: #0A1628;">
+                        <div class="swatch-name">Deep Ocean Navy</div>
+                        <div class="swatch-hex">#0A1628</div>
+                    </div>
+                    <div class="swatch" style="background: #0D3B3B;">
+                        <div class="swatch-name">Dark Teal Shadow</div>
+                        <div class="swatch-hex">#0D3B3B</div>
+                    </div>
+                </div>
+                <div class="preview" style="background: #0A1628; border: 2px solid #0D3B3B;">
+                    <div style="color: #FF9D00; font-weight: bold; margin-bottom: 8px;">Sample Card</div>
+                    <div style="color: #EAEAEA; font-size: 0.9rem;">Blue-teal cosmic background</div>
+                </div>
+            </div>
+
+            <!-- Option 2: Charcoal/Graphite -->
+            <div class="scheme">
+                <div class="scheme-header" style="background: #1A1D23;">
+                    <div class="scheme-name" style="color: #00FFFF;">Charcoal/Graphite</div>
+                    <div class="scheme-desc">Industrial, metallic, dramatic</div>
+                </div>
+                <div class="swatches">
+                    <div class="swatch" style="background: #0E1014;">
+                        <div class="swatch-name">Carbon Black</div>
+                        <div class="swatch-hex">#0E1014</div>
+                    </div>
+                    <div class="swatch" style="background: #1A1D23;">
+                        <div class="swatch-name">Steel Charcoal</div>
+                        <div class="swatch-hex">#1A1D23</div>
+                    </div>
+                    <div class="swatch" style="background: #2A2D35;">
+                        <div class="swatch-name">Gunmetal Gray</div>
+                        <div class="swatch-hex">#2A2D35</div>
+                    </div>
+                </div>
+                <div class="preview" style="background: #1A1D23; border: 2px solid #2A2D35;">
+                    <div style="color: #FF9D00; font-weight: bold; margin-bottom: 8px;">Sample Card</div>
+                    <div style="color: #EAEAEA; font-size: 0.9rem;">Industrial charcoal background</div>
+                </div>
+            </div>
+
+            <!-- Option 3: Dark Red/Crimson -->
+            <div class="scheme">
+                <div class="scheme-header" style="background: #1A0808;">
+                    <div class="scheme-name" style="color: #FF003C;">Dark Red/Crimson</div>
+                    <div class="scheme-desc">Aggressive, intense, villainous</div>
+                </div>
+                <div class="swatches">
+                    <div class="swatch" style="background: #0D0606;">
+                        <div class="swatch-name">Obsidian Red</div>
+                        <div class="swatch-hex">#0D0606</div>
+                    </div>
+                    <div class="swatch" style="background: #1A0808;">
+                        <div class="swatch-name">Deep Crimson</div>
+                        <div class="swatch-hex">#1A0808</div>
+                    </div>
+                    <div class="swatch" style="background: #3D0A0A;">
+                        <div class="swatch-name">Blood Shadow</div>
+                        <div class="swatch-hex">#3D0A0A</div>
+                    </div>
+                </div>
+                <div class="preview" style="background: #1A0808; border: 2px solid #3D0A0A;">
+                    <div style="color: #FF9D00; font-weight: bold; margin-bottom: 8px;">Sample Card</div>
+                    <div style="color: #EAEAEA; font-size: 0.9rem;">Dark crimson background</div>
+                </div>
+            </div>
+
+            <!-- Option 4: Pure Black/Navy -->
+            <div class="scheme">
+                <div class="scheme-header" style="background: #0E1420;">
+                    <div class="scheme-name" style="color: #00FFFF;">Pure Black/Navy</div>
+                    <div class="scheme-desc">Minimal, clean, stark contrast</div>
+                </div>
+                <div class="swatches">
+                    <div class="swatch" style="background: #0A0A0A;">
+                        <div class="swatch-name">True Black</div>
+                        <div class="swatch-hex">#0A0A0A</div>
+                    </div>
+                    <div class="swatch" style="background: #0E1420;">
+                        <div class="swatch-name">Midnight Navy</div>
+                        <div class="swatch-hex">#0E1420</div>
+                    </div>
+                    <div class="swatch" style="background: #1A1F2E;">
+                        <div class="swatch-name">Slate Navy</div>
+                        <div class="swatch-hex">#1A1F2E</div>
+                    </div>
+                </div>
+                <div class="preview" style="background: #0E1420; border: 2px solid #1A1F2E;">
+                    <div style="color: #FF9D00; font-weight: bold; margin-bottom: 8px;">Sample Card</div>
+                    <div style="color: #EAEAEA; font-size: 0.9rem;">Pure black-navy background</div>
+                </div>
+            </div>
+
+            <!-- Option 5: Blue-Green/Cyber -->
+            <div class="scheme">
+                <div class="scheme-header" style="background: #0A1A1A;">
+                    <div class="scheme-name" style="color: #00FFFF;">Blue-Green/Cyber</div>
+                    <div class="scheme-desc">Futuristic, tech, matrix vibes</div>
+                </div>
+                <div class="swatches">
+                    <div class="swatch" style="background: #070F0F;">
+                        <div class="swatch-name">Cyber Black</div>
+                        <div class="swatch-hex">#070F0F</div>
+                    </div>
+                    <div class="swatch" style="background: #0A1A1A;">
+                        <div class="swatch-name">Deep Cyber Teal</div>
+                        <div class="swatch-hex">#0A1A1A</div>
+                    </div>
+                    <div class="swatch" style="background: #0F2D2D;">
+                        <div class="swatch-name">Matrix Green-Blue</div>
+                        <div class="swatch-hex">#0F2D2D</div>
+                    </div>
+                </div>
+                <div class="preview" style="background: #0A1A1A; border: 2px solid #0F2D2D;">
+                    <div style="color: #FF9D00; font-weight: bold; margin-bottom: 8px;">Sample Card</div>
+                    <div style="color: #EAEAEA; font-size: 0.9rem;">Cyber blue-green background</div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 60px; text-align: center; color: #666; font-size: 0.9rem;">
+            <p>Note: Accent colors (Infinity Gold, Ultron Cyan, Reality Red) remain the same across all schemes.</p>
+            <p style="margin-top: 10px;">Open this file directly: <code style="color: #00FFFF;">/Users/patrick/vibe/dev-site/color-preview.html</code></p>
+        </div>
+    </div>
+</body>
+</html>
