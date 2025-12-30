@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "spof-io"
+  },
+  "targets": {
+    "spof-io": {
+      "hosting": {
+        "villain-mode": [
+          "villain-mode"
+        ]
+      }
+    }
+  }
+}
