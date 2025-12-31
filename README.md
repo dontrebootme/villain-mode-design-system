@@ -2,6 +2,10 @@
 
 A bold, high-contrast design system inspired by Marvel villain aesthetics. Features cosmic colors, geometric precision, and sharp angular design elements.
 
+**🌐 Live Demo:** [https://villain-mode.web.app](https://villain-mode.web.app)
+
+![Villain Mode Design System](./screenshot.png)
+
 ## 🎨 Design Philosophy
 
 **Theme:** Infinite Power • Architect of Chaos
