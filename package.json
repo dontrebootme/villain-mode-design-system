@@ -2,6 +2,23 @@
   "name": "villain-mode-design-system",
   "private": true,
   "version": "1.0.0",
+  "description": "A bold, high-contrast design system inspired by Marvel villain aesthetics. Features cosmic colors, geometric precision, and sharp angular design elements.",
+  "homepage": "https://villain-mode.web.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dontrebootme/villain-mode-design-system.git"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "tailwindcss",
+    "ui-components",
+    "marvel",
+    "cosmic",
+    "geometric",
+    "dark-mode",
+    "vite"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
