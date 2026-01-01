@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-body text-starlight-white;
+    @apply font-body text-white;
     background: linear-gradient(180deg, #120E26 0%, #240b36 100%);
     min-height: 100vh;
   }
@@ -46,7 +46,7 @@
   }
 
   .rim-light-cyan {
-    box-shadow: -4px 0 12px rgba(0, 240, 255, 0.4);
+    box-shadow: -4px 4px 0px rgba(0, 240, 255, 0.15);
   }
 
   .glow-hot {
@@ -63,6 +63,10 @@
   }
 
   .clip-angled {
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+  }
+
+  .btn-gradient-primary {
+    background: linear-gradient(45deg, #FFB703, #F5A623);
   }
 }

@@ -11,16 +11,18 @@ export default {
         'midnight-indigo': '#120E26',
         'amethyst': '#2A1B3D',
         'magenta': '#590C57',
+        'indigo-dark': '#4B0082',
 
         // Accent & Action Colors
         'amber': '#F5A623',
+        'amber-bright': '#FFB703',
         'gold': '#FFD700',
         'cyan': '#00F0FF',
         'cyan-dark': '#00C3E3',
         'red': '#FF003C',
 
         // Neutral Colors (Typography & Borders)
-        'white': '#EAEAEA',
+        'white': '#E0E0E0',
         'silver': '#A0A8B8',
         'grey': '#3E4259',
       },

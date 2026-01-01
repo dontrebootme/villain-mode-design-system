@@ -38,19 +38,21 @@ Visit http://localhost:5173/ to view the design system.
 ### Core Colors (Backgrounds & Base)
 - **Midnight Indigo:** `#120E26` - Main background (Tailwind: `midnight-indigo`)
 - **Dark Amethyst:** `#2A1B3D` - Cards and surfaces (Tailwind: `amethyst`)
+- **Indigo Dark:** `#4B0082` - Card borders (Tailwind: `indigo-dark`)
 - **Magenta:** `#590C57` - Accents (Tailwind: `magenta`)
 
 ### Accent & Action Colors
-- **Vibrant Amber:** `#F5A623` - Primary CTAs (Tailwind: `amber`)
-- **Pure Gold:** `#FFD700` - Highlights (Tailwind: `gold`)
+- **Amber Bright:** `#FFB703` - Button gradient start (Tailwind: `amber-bright`)
+- **Amber:** `#F5A623` - Button gradient end, primary CTAs (Tailwind: `amber`)
+- **Gold:** `#FFD700` - Highlights (Tailwind: `gold`)
 - **Electric Cyan:** `#00F0FF` - Secondary accents (Tailwind: `cyan`)
 - **Cyan Dark:** `#00C3E3` - Borders and links (Tailwind: `cyan-dark`)
 - **Red:** `#FF003C` - Alerts (Tailwind: `red`)
 
 ### Neutral Colors
-- **White:** `#EAEAEA` - Primary text (Tailwind: `white`)
+- **White:** `#E0E0E0` - Primary text (Tailwind: `white`)
 - **Silver:** `#A0A8B8` - Secondary text (Tailwind: `silver`)
-- **Grey:** `#3E4259` - Borders and dividers (Tailwind: `grey`)
+- **Grey:** `#3E4259` - General borders (Tailwind: `grey`)
 
 ## 📝 Typography
 
@@ -81,9 +83,9 @@ Visit http://localhost:5173/ to view the design system.
 ## ✨ Key Features
 
 - **Sharp Corners:** All components use 0px border-radius for geometric precision
-- **Skewed Buttons:** Transform: `skewX(-15deg)` with counter-skewed text for dynamic visual interest
-- **Angled Card Corners:** Clip-path polygon creates signature bottom-right corner cuts
-- **Rim Lighting:** Cyan edge glow (box-shadow) creates electric dimensional depth
+- **Skewed Buttons:** Transform: `skewX(-15deg)` with counter-skewed text, 45° gradient (`#FFB703` → `#F5A623`)
+- **Angled Card Corners:** 20px clip-path polygon creates signature bottom-right corner cuts
+- **Rim Lighting:** Hard-edge cyan shadow (`-4px 4px 0px`) per spec, not blurred glow
 - **Hot Glow Effects:** Amber hover states with intense outer glow
 - **Split Gradient Backgrounds:** Linear gradients replace radial for cleaner aesthetic
 - **Semantic Color Names:** Descriptive Tailwind classes (amber, cyan, midnight-indigo) instead of themed names

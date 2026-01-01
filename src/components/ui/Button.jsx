@@ -10,11 +10,11 @@ const Button = ({
   className,
   ...props
 }) => {
-  const baseClasses = 'font-heading font-bold transition-all duration-300 border';
+  const baseClasses = 'font-heading font-bold uppercase tracking-[1.5px] transition-all duration-300 border';
 
   const variantClasses = {
     primary: clsx(
-      'bg-gradient-to-r from-amber to-gold',
+      'btn-gradient-primary',
       'text-midnight-indigo border-amber',
       'skew-button',
       'hover:glow-hot',

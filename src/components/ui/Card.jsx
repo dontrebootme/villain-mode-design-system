@@ -8,7 +8,7 @@ const Card = ({
   ...props
 }) => {
   const baseClasses = clsx(
-    'bg-amethyst border border-grey p-6',
+    'bg-amethyst border border-indigo-dark p-6',
     'transition-all duration-300',
     'clip-angled',
     'rim-light-cyan'
