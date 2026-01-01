@@ -46,7 +46,45 @@ const EffectsShowcase = () => {
                     <p className="text-white text-sm">Edge Glow</p>
                   </div>
                   <p className="text-xs text-silver mt-4">
-                    box-shadow: -4px 0 12px for edge lighting
+                    box-shadow: -4px 4px 0px hard-edge shadow
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          {/* NEW: Motion & Animation Effects */}
+          <div>
+            <h3 className="text-2xl mb-6 text-cyan">Motion & Animation</h3>
+            <p className="text-sm text-silver mb-4">
+              Orchestrated page load reveals, ambient pulses, and micro-interactions.
+            </p>
+            <Card>
+              <div className="grid md:grid-cols-3 gap-6">
+                {/* Glow Pulse */}
+                <div className="bg-midnight-indigo p-6 text-center">
+                  <p className="text-sm text-amber mb-4 font-heading">GLOW PULSE</p>
+                  <div className="bg-amethyst border border-cyan p-4 glow-pulse inline-block">
+                    <p className="text-white text-sm">Ambient</p>
+                  </div>
+                  <p className="text-xs text-silver mt-4">
+                    Continuous cyan glow animation
+                  </p>
+                </div>
+                {/* Text Glow Pulse */}
+                <div className="bg-midnight-indigo p-6 text-center">
+                  <p className="text-sm text-cyan mb-4 font-heading">TEXT PULSE</p>
+                  <p className="text-3xl font-heading text-glow-pulse">POWER</p>
+                  <p className="text-xs text-silver mt-4">
+                    Pulsing text-shadow for emphasis
+                  </p>
+                </div>
+                {/* Float Geometric */}
+                <div className="bg-midnight-indigo p-6 text-center relative h-32">
+                  <p className="text-sm text-cyan mb-4 font-heading">FLOAT</p>
+                  <div className="geometric-diamond float-geometric opacity-80" style={{ top: '40%', left: '50%', transform: 'translateX(-50%) rotate(45deg)', width: '40px', height: '40px' }} />
+                  <p className="text-xs text-silver absolute bottom-4 left-0 right-0">
+                    Floating geometric shapes
                   </p>
                 </div>
               </div>

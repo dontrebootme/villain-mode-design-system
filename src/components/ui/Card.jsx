@@ -11,7 +11,8 @@ const Card = ({
     'bg-amethyst border border-indigo-dark p-6',
     'transition-all duration-300',
     'clip-angled',
-    'rim-light-cyan'
+    'rim-light-cyan',
+    'hover-lift'
   );
 
   const hoverClasses = hover && clsx(
