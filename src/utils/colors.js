@@ -1,20 +1,22 @@
 export const colors = {
   core: {
-    'Deep Cosmic Navy': '#0D0F26',
-    'Abyssal Purple': '#1A1233',
-    'Nebula Magenta': '#590C57',
+    'Midnight Indigo': '#120E26',
+    'Amethyst': '#2A1B3D',
+    'Magenta': '#590C57',
+    'Indigo Dark': '#4B0082',
   },
   accent: {
-    'Infinity Gold': '#FF9D00',
-    'Infinity Gold Light': '#FFD700',
-    'Ultron Cyan': '#00FFFF',
-    'Ultron Cyan Dark': '#00C3E3',
-    'Reality Red': '#FF003C',
+    'Amber Bright': '#FFB703',
+    'Amber': '#F5A623',
+    'Gold': '#FFD700',
+    'Cyan': '#00F0FF',
+    'Cyan Dark': '#00C3E3',
+    'Red': '#FF003C',
   },
   neutral: {
-    'Starlight White': '#EAEAEA',
-    'Faded Silver': '#A0A8B8',
-    'Facet Grey': '#3E4259',
+    'White': '#E0E0E0',
+    'Silver': '#A0A8B8',
+    'Grey': '#3E4259',
   },
 };
 
