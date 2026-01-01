@@ -10,7 +10,7 @@ const InputShowcase = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-5xl mb-4 text-center">Form Elements</h2>
         <p className="text-center text-silver mb-12 max-w-2xl mx-auto">
-          Dark backgrounds with cyan borders. Focus states reveal gold glows, maintaining the cosmic energy aesthetic.
+          Midnight backgrounds with cyan-dark borders. Focus states reveal amber glow effects, maintaining the Electric Geometric energy.
         </p>
 
         <div className="max-w-4xl mx-auto space-y-12">

@@ -8,17 +8,20 @@ const CardShowcase = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-5xl mb-4 text-center">Cards & Containers</h2>
         <p className="text-center text-silver mb-12 max-w-2xl mx-auto">
-          Faceted containers with sharp corners and glowing gradient borders on hover. Perfect for showcasing projects, content, and data.
+          Angled corners with clip-path, cyan rim lighting, and gradient border glows on hover. The Electric Geometric container system.
         </p>
 
         <div className="max-w-4xl mx-auto space-y-12">
           {/* Basic Card */}
           <div>
             <h3 className="text-2xl mb-6 text-cyan">Basic Card</h3>
+            <p className="text-sm text-silver mb-4">
+              Features: clip-path angled corner, indigo-dark border, rim-light-cyan shadow, hover-lift effect.
+            </p>
             <Card>
-              <h4 className="text-xl mb-3">Standard Container</h4>
+              <h4 className="text-xl mb-3">STANDARD CONTAINER</h4>
               <p className="text-silver">
-                Abyssal Purple background with Facet Grey border. Sharp corners define the geometric aesthetic.
+                Amethyst background with hard-edge cyan rim lighting. The 20px corner cut creates the geometric signature.
               </p>
             </Card>
           </div>
@@ -27,9 +30,9 @@ const CardShowcase = () => {
           <div>
             <h3 className="text-2xl mb-6 text-cyan">Interactive Card (Hover Me)</h3>
             <Card hover>
-              <h4 className="text-xl mb-3 text-amber">Power-Enhanced Container</h4>
+              <h4 className="text-xl mb-3 text-amber">POWER-ENHANCED CONTAINER</h4>
               <p className="text-silver mb-4">
-                Hover to reveal the gradient border glow (gold to cyan) and shadow effect. This creates a sense of energy and interactivity.
+                Hover to reveal the gradient border glow (amber to cyan) and 30px cyan shadow. The -4px 4px rim light shifts on interaction.
               </p>
               <div className="flex gap-2">
                 <Badge variant="gold">FEATURED</Badge>

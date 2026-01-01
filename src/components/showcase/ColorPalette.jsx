@@ -13,10 +13,10 @@ const ColorSwatch = ({ name, hex }) => {
   return (
     <div
       onClick={handleClick}
-      className="cursor-pointer transition-all duration-300 hover:scale-105"
+      className="cursor-pointer transition-all duration-300 hover:scale-105 hover-lift"
     >
       <div
-        className="h-24 mb-3 border border-grey hover:border-amber transition-colors duration-300"
+        className="h-24 mb-3 border border-indigo-dark hover:border-amber transition-colors duration-300 clip-angled"
         style={{ backgroundColor: hex }}
       ></div>
       <div className="text-sm">

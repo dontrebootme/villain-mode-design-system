@@ -7,7 +7,7 @@ const ButtonShowcase = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-5xl mb-4 text-center">Buttons</h2>
         <p className="text-center text-silver mb-12 max-w-2xl mx-auto">
-          Sharp, angular, and glowing. Buttons look like concentrated energy facets with zero border radius and intense hover effects.
+          Skewed geometry meets hot glow. Buttons feature -15° skew transforms with counter-skewed text, uppercase styling, and intense hover effects.
         </p>
 
         <div className="max-w-4xl mx-auto space-y-12">
@@ -15,9 +15,9 @@ const ButtonShowcase = () => {
           <div>
             <h3 className="text-2xl mb-6 text-cyan">Primary Buttons</h3>
             <p className="text-sm text-silver mb-4">
-              Gold gradient background with sharp corners. Hover intensifies the glow.
+              45° gradient (#FFB703 → #F5A623) with skewX(-15deg). Hover triggers hot amber glow.
             </p>
-            <div className="bg-amethyst border border-grey p-8">
+            <div className="bg-amethyst border border-indigo-dark p-8 clip-angled rim-light-cyan">
               <div className="flex flex-wrap gap-4 items-center">
                 <Button size="small">Small</Button>
                 <Button size="medium">Medium</Button>
@@ -31,9 +31,9 @@ const ButtonShowcase = () => {
           <div>
             <h3 className="text-2xl mb-6 text-cyan">Secondary Buttons</h3>
             <p className="text-sm text-silver mb-4">
-              Transparent with cyan border. Fills with solid cyan on hover.
+              Transparent with cyan border, same skew transform. Fills with solid cyan on hover.
             </p>
-            <div className="bg-amethyst border border-grey p-8">
+            <div className="bg-amethyst border border-indigo-dark p-8 clip-angled rim-light-cyan">
               <div className="flex flex-wrap gap-4 items-center">
                 <Button variant="secondary" size="small">Small</Button>
                 <Button variant="secondary" size="medium">Medium</Button>
@@ -46,7 +46,7 @@ const ButtonShowcase = () => {
           {/* Button Examples */}
           <div>
             <h3 className="text-2xl mb-6 text-cyan">Examples in Context</h3>
-            <div className="bg-amethyst border border-grey p-8 space-y-6">
+            <div className="bg-amethyst border border-indigo-dark p-8 space-y-6 clip-angled rim-light-cyan">
               <div>
                 <p className="text-silver mb-3">Call to Action</p>
                 <Button>Unleash Power</Button>
