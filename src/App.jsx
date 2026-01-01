@@ -26,20 +26,20 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="py-16 bg-abyssal-purple/50 border-t border-facet-grey">
+      <footer className="py-16 bg-amethyst/50 border-t border-grey">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-faded-silver mb-2">
+          <p className="text-silver mb-2">
             Villain Mode Design System
           </p>
-          <p className="text-sm text-faded-silver">
+          <p className="text-sm text-silver">
             Built with Vite, React, Tailwind CSS, and Recharts
           </p>
           <div className="mt-6 flex justify-center gap-4 text-xs">
-            <span className="text-infinity-gold">Sharp Corners</span>
-            <span className="text-facet-grey">•</span>
-            <span className="text-ultron-cyan">Cosmic Energy</span>
-            <span className="text-facet-grey">•</span>
-            <span className="text-starlight-white">Geometric Precision</span>
+            <span className="text-amber">Sharp Corners</span>
+            <span className="text-grey">•</span>
+            <span className="text-cyan">Cosmic Energy</span>
+            <span className="text-grey">•</span>
+            <span className="text-white">Geometric Precision</span>
           </div>
         </div>
       </footer>

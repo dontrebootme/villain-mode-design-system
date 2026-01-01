@@ -15,8 +15,8 @@ const powerData = [
 const CustomTooltip = ({ active, payload }) => {
   if (active && payload && payload.length) {
     return (
-      <div className="bg-abyssal-purple border border-infinity-gold p-3">
-        <p className="text-sm text-starlight-white mb-1">{payload[0].payload.name}</p>
+      <div className="bg-amethyst border border-amber p-3">
+        <p className="text-sm text-white mb-1">{payload[0].payload.name}</p>
         {payload.map((entry, index) => (
           <p key={index} className="text-xs" style={{ color: entry.color }}>
             {entry.name}: {entry.value}
@@ -33,16 +33,16 @@ const ChartShowcase = () => {
     <section className="py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl mb-4 text-center">Data Visualization</h2>
-        <p className="text-center text-faded-silver mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-silver mb-12 max-w-2xl mx-auto">
           Charts and graphs styled with the cosmic color palette. Infinity Gold and Ultron Cyan bring energy to data presentation.
         </p>
 
         <div className="max-w-4xl mx-auto space-y-12">
           {/* Bar Chart */}
           <div>
-            <h3 className="text-2xl mb-6 text-ultron-cyan">Bar Chart Example</h3>
+            <h3 className="text-2xl mb-6 text-cyan">Bar Chart Example</h3>
             <Card>
-              <h4 className="text-lg mb-4 text-infinity-gold">Weekly Power Levels</h4>
+              <h4 className="text-lg mb-4 text-amber">Weekly Power Levels</h4>
               <ResponsiveContainer width="100%" height={300}>
                 <BarChart data={powerData}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#3E4259" />
@@ -55,12 +55,12 @@ const ChartShowcase = () => {
               </ResponsiveContainer>
               <div className="mt-4 flex gap-6 justify-center text-sm">
                 <div className="flex items-center gap-2">
-                  <div className="w-4 h-4 bg-infinity-gold"></div>
-                  <span className="text-faded-silver">Power</span>
+                  <div className="w-4 h-4 bg-amber"></div>
+                  <span className="text-silver">Power</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-4 h-4 bg-ultron-cyan"></div>
-                  <span className="text-faded-silver">Chaos</span>
+                  <div className="w-4 h-4 bg-cyan"></div>
+                  <span className="text-silver">Chaos</span>
                 </div>
               </div>
             </Card>
@@ -68,9 +68,9 @@ const ChartShowcase = () => {
 
           {/* Line Chart */}
           <div>
-            <h3 className="text-2xl mb-6 text-ultron-cyan">Line Chart Example</h3>
+            <h3 className="text-2xl mb-6 text-cyan">Line Chart Example</h3>
             <Card hover>
-              <h4 className="text-lg mb-4 text-ultron-cyan">Chaos Trajectory</h4>
+              <h4 className="text-lg mb-4 text-cyan">Chaos Trajectory</h4>
               <ResponsiveContainer width="100%" height={300}>
                 <LineChart data={powerData}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#3E4259" />
@@ -98,31 +98,31 @@ const ChartShowcase = () => {
 
           {/* Chart Styling Notes */}
           <div>
-            <h3 className="text-2xl mb-6 text-ultron-cyan">Chart Styling Guidelines</h3>
+            <h3 className="text-2xl mb-6 text-cyan">Chart Styling Guidelines</h3>
             <Card>
-              <ul className="space-y-3 text-faded-silver">
+              <ul className="space-y-3 text-silver">
                 <li className="flex items-start gap-3">
-                  <span className="text-infinity-gold mt-1">▸</span>
+                  <span className="text-amber mt-1">▸</span>
                   <span>Primary data series in Infinity Gold (#FF9D00)</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-infinity-gold mt-1">▸</span>
+                  <span className="text-amber mt-1">▸</span>
                   <span>Secondary data series in Ultron Cyan (#00FFFF)</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-infinity-gold mt-1">▸</span>
+                  <span className="text-amber mt-1">▸</span>
                   <span>Grid lines in Facet Grey (#3E4259) for subtle structure</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-infinity-gold mt-1">▸</span>
+                  <span className="text-amber mt-1">▸</span>
                   <span>Axis labels in Faded Silver (#A0A8B8) for readability</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-infinity-gold mt-1">▸</span>
+                  <span className="text-amber mt-1">▸</span>
                   <span>Custom tooltips with Abyssal Purple background and gold border</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-infinity-gold mt-1">▸</span>
+                  <span className="text-amber mt-1">▸</span>
                   <span>Maintain sharp, geometric aesthetic with minimal rounding</span>
                 </li>
               </ul>

@@ -10,9 +10,9 @@ const Badge = ({
   const baseClasses = 'inline-block px-3 py-1 text-xs font-heading font-bold border';
 
   const variantClasses = {
-    gold: 'bg-infinity-gold/20 border-infinity-gold text-infinity-gold-light',
-    cyan: 'bg-ultron-cyan/20 border-ultron-cyan text-ultron-cyan',
-    red: 'bg-reality-red/20 border-reality-red text-reality-red',
+    gold: 'bg-amber/20 border-amber text-gold',
+    cyan: 'bg-cyan/20 border-cyan text-cyan',
+    red: 'bg-red/20 border-red text-red',
   };
 
   return (

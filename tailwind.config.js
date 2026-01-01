@@ -8,24 +8,24 @@ export default {
     extend: {
       colors: {
         // Core Colors (Backgrounds & Base)
-        'cosmic-navy': '#0D0F26',
-        'abyssal-purple': '#1A1233',
-        'nebula-magenta': '#590C57',
+        'midnight-indigo': '#120E26',
+        'amethyst': '#2A1B3D',
+        'magenta': '#590C57',
 
         // Accent & Action Colors
-        'infinity-gold': '#FF9D00',
-        'infinity-gold-light': '#FFD700',
-        'ultron-cyan': '#00FFFF',
-        'ultron-cyan-dark': '#00C3E3',
-        'reality-red': '#FF003C',
+        'amber': '#F5A623',
+        'gold': '#FFD700',
+        'cyan': '#00F0FF',
+        'cyan-dark': '#00C3E3',
+        'red': '#FF003C',
 
         // Neutral Colors (Typography & Borders)
-        'starlight-white': '#EAEAEA',
-        'faded-silver': '#A0A8B8',
-        'facet-grey': '#3E4259',
+        'white': '#EAEAEA',
+        'silver': '#A0A8B8',
+        'grey': '#3E4259',
       },
       fontFamily: {
-        heading: ['Montserrat', 'sans-serif'],
+        heading: ['Teko', 'sans-serif'],
         body: ['Inter', 'sans-serif'],
         code: ['Fira Code', 'monospace'],
       },

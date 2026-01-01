@@ -2,7 +2,7 @@
   "name": "villain-mode-design-system",
   "private": true,
   "version": "1.0.0",
-  "description": "A bold, high-contrast design system inspired by Marvel villain aesthetics. Features cosmic colors, geometric precision, and sharp angular design elements.",
+  "description": "A bold, high-contrast design system inspired by villain aesthetics and cosmic energy. Features dramatic colors, geometric precision, and sharp angular design elements.",
   "homepage": "https://villain-mode.web.app",
   "repository": {
     "type": "git",
@@ -13,10 +13,10 @@
     "react",
     "tailwindcss",
     "ui-components",
-    "marvel",
     "cosmic",
     "geometric",
     "dark-mode",
+    "villain-mode",
     "vite"
   ],
   "type": "module",

@@ -14,16 +14,18 @@ const Button = ({
 
   const variantClasses = {
     primary: clsx(
-      'bg-gradient-to-r from-infinity-gold to-infinity-gold-light',
-      'text-cosmic-navy border-infinity-gold',
-      'hover:shadow-[0_0_20px_rgba(255,157,0,0.6)]',
+      'bg-gradient-to-r from-amber to-gold',
+      'text-midnight-indigo border-amber',
+      'skew-button',
+      'hover:glow-hot',
       'disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-none'
     ),
     secondary: clsx(
-      'bg-transparent border-2 border-ultron-cyan',
-      'text-ultron-cyan',
-      'hover:bg-ultron-cyan hover:text-cosmic-navy',
-      'disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-ultron-cyan'
+      'bg-transparent border-2 border-cyan',
+      'text-cyan',
+      'skew-button',
+      'hover:bg-cyan hover:text-midnight-indigo',
+      'disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-cyan'
     ),
   };
 
@@ -45,7 +47,7 @@ const Button = ({
       onClick={onClick}
       {...props}
     >
-      {children}
+      <span className="unskew-text">{children}</span>
     </button>
   );
 };

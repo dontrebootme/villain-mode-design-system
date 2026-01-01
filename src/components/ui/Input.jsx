@@ -10,13 +10,13 @@ const Input = ({
   ...props
 }) => {
   const baseClasses = clsx(
-    'bg-cosmic-navy border-2 border-ultron-cyan-dark',
-    'text-starlight-white font-body',
+    'bg-midnight-indigo border-2 border-cyan-dark',
+    'text-white font-body',
     'px-4 py-3 w-full',
-    'focus:outline-none focus:border-infinity-gold',
-    'focus:shadow-[0_0_15px_rgba(255,157,0,0.4)]',
+    'focus:outline-none focus:border-amber',
+    'focus:shadow-[0_0_15px_rgba(245,166,35,0.4)]',
     'transition-all duration-300',
-    'placeholder:text-faded-silver'
+    'placeholder:text-silver'
   );
 
   return (

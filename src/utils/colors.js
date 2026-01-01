@@ -1,14 +1,14 @@
 export const colors = {
   core: {
-    'Deep Cosmic Navy': '#0D0F26',
-    'Abyssal Purple': '#1A1233',
+    'Deep Midnight Indigo': '#120E26',
+    'Dark Amethyst': '#2A1B3D',
     'Nebula Magenta': '#590C57',
   },
   accent: {
-    'Infinity Gold': '#FF9D00',
-    'Infinity Gold Light': '#FFD700',
-    'Ultron Cyan': '#00FFFF',
-    'Ultron Cyan Dark': '#00C3E3',
+    'Vibrant Amber': '#F5A623',
+    'Pure Gold': '#FFD700',
+    'Electric Cyan': '#00F0FF',
+    'Electric Cyan Dark': '#00C3E3',
     'Reality Red': '#FF003C',
   },
   neutral: {

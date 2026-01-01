@@ -66,7 +66,7 @@ const CodeBlock = ({
         <pre
           className={clsx(
             'font-code text-sm p-6 overflow-x-auto',
-            'border-l-4 border-infinity-gold',
+            'border-l-4 border-amber',
             'bg-[#080A1A]',
             className
           )}

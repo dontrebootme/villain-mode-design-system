@@ -7,13 +7,13 @@ const Hero = () => {
         <h1 className="text-7xl md:text-8xl mb-6 text-glow-gold tracking-tight">
           VILLAIN MODE
         </h1>
-        <h2 className="text-3xl md:text-4xl mb-4 text-ultron-cyan font-heading">
+        <h2 className="text-3xl md:text-4xl mb-4 text-cyan font-heading">
           Design System
         </h2>
-        <p className="text-xl text-faded-silver max-w-2xl mx-auto mb-2">
+        <p className="text-xl text-silver max-w-2xl mx-auto mb-2">
           Infinite Power • Architect of Chaos
         </p>
-        <p className="text-base text-faded-silver max-w-3xl mx-auto">
+        <p className="text-base text-silver max-w-3xl mx-auto">
           A bold, high-contrast design system inspired by cosmic energy and geometric precision.
           Sharp angles, glowing accents, and faceted aesthetics define this technically advanced visual language.
         </p>
@@ -21,7 +21,7 @@ const Hero = () => {
 
       {/* Diagonal section break */}
       <div className="absolute bottom-0 left-0 right-0 h-16 overflow-hidden">
-        <div className="absolute inset-0 bg-abyssal-purple transform -skew-y-2 translate-y-8"></div>
+        <div className="absolute inset-0 bg-amethyst transform -skew-y-2 translate-y-8"></div>
       </div>
     </section>
   );

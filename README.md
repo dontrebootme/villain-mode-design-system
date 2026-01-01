@@ -1,6 +1,6 @@
 # Villain Mode Design System
 
-A bold, high-contrast design system inspired by Marvel villain aesthetics. Features cosmic colors, geometric precision, and sharp angular design elements.
+A bold, high-contrast design system inspired by villain aesthetics and cosmic energy. Features dramatic colors, geometric precision, and sharp angular design elements.
 
 **🌐 Live Demo:** [https://villain-mode.web.app](https://villain-mode.web.app)
 
