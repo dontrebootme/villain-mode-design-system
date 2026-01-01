@@ -1,6 +1,6 @@
 # Villain Mode Design System
 
-A bold, high-contrast design system inspired by villain aesthetics and cosmic energy. Features dramatic colors, geometric precision, and sharp angular design elements.
+A bold, high-contrast design system with an **Electric Geometric** aesthetic. Features vibrant saturated colors, sharp angular geometry, and dramatic lighting effects inspired by low-poly vector art.
 
 **🌐 Live Demo:** [https://villain-mode.web.app](https://villain-mode.web.app)
 
@@ -8,12 +8,12 @@ A bold, high-contrast design system inspired by villain aesthetics and cosmic en
 
 ## 🎨 Design Philosophy
 
-**Theme:** Infinite Power • Architect of Chaos
+**Theme:** Electric Geometric • Vibrant Low-Poly
 
-- **Bold & High-Contrast:** Dark cosmic backgrounds with intense glowing accents
-- **Geometric & Faceted:** Sharp corners (0px border-radius), angular design language
-- **Hard-Edge Lighting:** Solid offset shadows instead of soft blurred shadows
-- **Cosmic Energy:** Glowing borders, gradient effects, and vibrant color palette
+- **Bold & High-Contrast:** Deep midnight backgrounds with electric neon accents
+- **Geometric & Faceted:** Sharp corners (0px border-radius), angled cuts, skewed elements
+- **Split Lighting:** Rim lights and edge glows create dimensional depth
+- **Electric Energy:** Hot amber and electric cyan create dynamic contrast
 
 ## 🚀 Quick Start
 
@@ -36,34 +36,36 @@ Visit http://localhost:5173/ to view the design system.
 ## 🎨 Color Palette
 
 ### Core Colors (Backgrounds & Base)
-- **Deep Cosmic Navy:** `#0D0F26` - Main background
-- **Abyssal Purple:** `#1A1233` - Cards and sections
-- **Nebula Magenta:** `#590C57` - Ambient glows and shadows
+- **Midnight Indigo:** `#120E26` - Main background (Tailwind: `midnight-indigo`)
+- **Dark Amethyst:** `#2A1B3D` - Cards and surfaces (Tailwind: `amethyst`)
+- **Magenta:** `#590C57` - Accents (Tailwind: `magenta`)
 
 ### Accent & Action Colors
-- **Infinity Gold:** `#FF9D00` to `#FFD700` - Primary CTAs and highlights
-- **Ultron Cyan:** `#00FFFF` to `#00C3E3` - Secondary accents and links
-- **Reality Red:** `#FF003C` - Alerts and intense highlights
+- **Vibrant Amber:** `#F5A623` - Primary CTAs (Tailwind: `amber`)
+- **Pure Gold:** `#FFD700` - Highlights (Tailwind: `gold`)
+- **Electric Cyan:** `#00F0FF` - Secondary accents (Tailwind: `cyan`)
+- **Cyan Dark:** `#00C3E3` - Borders and links (Tailwind: `cyan-dark`)
+- **Red:** `#FF003C` - Alerts (Tailwind: `red`)
 
 ### Neutral Colors
-- **Starlight White:** `#EAEAEA` - Primary text
-- **Faded Silver:** `#A0A8B8` - Secondary text and metadata
-- **Facet Grey:** `#3E4259` - Borders and dividers
+- **White:** `#EAEAEA` - Primary text (Tailwind: `white`)
+- **Silver:** `#A0A8B8` - Secondary text (Tailwind: `silver`)
+- **Grey:** `#3E4259` - Borders and dividers (Tailwind: `grey`)
 
 ## 📝 Typography
 
-- **Headings:** Montserrat (Bold, geometric, commanding)
+- **Headings:** Teko (Ultra-condensed, geometric, bold with 1.5px letter-spacing, uppercase)
 - **Body:** Inter (Clean, readable, modern)
 - **Code:** Fira Code (Monospace with ligature support)
 
 ## 🧩 Components
 
 ### UI Components (`src/components/ui/`)
-- **Button** - Primary (gold gradient) and Secondary (cyan outline) variants
-- **Card** - Containers with optional hover glow effects
-- **Input** - Form elements with cosmic styling
-- **Badge** - Small labels with gold/cyan/red variants
-- **CodeBlock** - Syntax-highlighted code with custom theme
+- **Button** - Skewed containers with amber-to-gold gradient (primary) and cyan outline (secondary), counter-skewed text
+- **Card** - Containers with angled bottom-right corners, cyan rim lighting, and optional gradient hover borders
+- **Input** - Form elements with cyan borders and amber focus states
+- **Badge** - Small labels with amber/cyan/red variants
+- **CodeBlock** - Syntax-highlighted code with custom electric theme
 
 ### Showcase Sections (`src/components/showcase/`)
 - **Hero** - Opening banner with diagonal section break
@@ -78,10 +80,14 @@ Visit http://localhost:5173/ to view the design system.
 
 ## ✨ Key Features
 
-- **Sharp Corners:** All components use 0px border-radius
-- **Glowing Effects:** Gold and cyan border glows on interactive elements
-- **Hard-Edge Shadows:** Solid offset shadows maintain geometric aesthetic
-- **Custom Syntax Theme:** Code blocks styled with cosmic colors
+- **Sharp Corners:** All components use 0px border-radius for geometric precision
+- **Skewed Buttons:** Transform: `skewX(-15deg)` with counter-skewed text for dynamic visual interest
+- **Angled Card Corners:** Clip-path polygon creates signature bottom-right corner cuts
+- **Rim Lighting:** Cyan edge glow (box-shadow) creates electric dimensional depth
+- **Hot Glow Effects:** Amber hover states with intense outer glow
+- **Split Gradient Backgrounds:** Linear gradients replace radial for cleaner aesthetic
+- **Semantic Color Names:** Descriptive Tailwind classes (amber, cyan, midnight-indigo) instead of themed names
+- **Custom Syntax Theme:** Code blocks styled with electric geometric colors
 - **Responsive Design:** Mobile-friendly grid layouts
 - **Interactive Elements:** Hover states with 300ms transitions
 

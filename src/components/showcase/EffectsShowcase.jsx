@@ -11,6 +11,48 @@ const EffectsShowcase = () => {
         </p>
 
         <div className="max-w-4xl mx-auto space-y-12">
+          {/* NEW: Electric Geometric Effects */}
+          <div>
+            <h3 className="text-2xl mb-6 text-cyan">Electric Geometric Effects</h3>
+            <p className="text-sm text-silver mb-4">
+              New signature effects: skewed buttons, angled corners, and rim lighting.
+            </p>
+            <Card>
+              <div className="grid md:grid-cols-3 gap-6">
+                {/* Skew Button */}
+                <div className="bg-midnight-indigo p-6 text-center">
+                  <p className="text-sm text-amber mb-4 font-heading">SKEW BUTTON</p>
+                  <button className="bg-gradient-to-r from-amber to-gold text-midnight-indigo font-heading font-bold px-6 py-3 skew-button hover:glow-hot transition-all">
+                    <span className="unskew-text">ACTION</span>
+                  </button>
+                  <p className="text-xs text-silver mt-4">
+                    transform: skewX(-15deg) with counter-skewed text
+                  </p>
+                </div>
+                {/* Angled Corner */}
+                <div className="bg-midnight-indigo p-6 text-center">
+                  <p className="text-sm text-cyan mb-4 font-heading">ANGLED CORNER</p>
+                  <div className="bg-amethyst border border-grey p-4 clip-angled">
+                    <p className="text-white text-sm">Clipped Card</p>
+                  </div>
+                  <p className="text-xs text-silver mt-4">
+                    clip-path: polygon() for corner cuts
+                  </p>
+                </div>
+                {/* Rim Light */}
+                <div className="bg-midnight-indigo p-6 text-center">
+                  <p className="text-sm text-cyan mb-4 font-heading">RIM LIGHT</p>
+                  <div className="bg-amethyst border border-grey p-4 rim-light-cyan">
+                    <p className="text-white text-sm">Edge Glow</p>
+                  </div>
+                  <p className="text-xs text-silver mt-4">
+                    box-shadow: -4px 0 12px for edge lighting
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </div>
+
           {/* Glowing Borders */}
           <div>
             <h3 className="text-2xl mb-6 text-cyan">Glowing Borders</h3>
