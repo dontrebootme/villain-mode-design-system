@@ -10,7 +10,7 @@ const Button = ({
   className,
   ...props
 }) => {
-  const baseClasses = 'font-heading font-bold uppercase tracking-[1.5px] transition-all duration-300 border';
+  const baseClasses = 'font-heading font-bold uppercase tracking-[1.5px] transition-all duration-300 border focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-midnight-indigo';
 
   const variantClasses = {
     primary: clsx(
@@ -18,6 +18,7 @@ const Button = ({
       'text-midnight-indigo border-amber',
       'skew-button',
       'hover:glow-hot',
+      'focus-visible:ring-amber',
       'disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-none'
     ),
     secondary: clsx(
@@ -25,6 +26,7 @@ const Button = ({
       'text-cyan',
       'skew-button',
       'hover:bg-cyan hover:text-midnight-indigo',
+      'focus-visible:ring-cyan',
       'disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-cyan'
     ),
   };

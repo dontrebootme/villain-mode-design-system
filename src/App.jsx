@@ -12,9 +12,16 @@ import ChartShowcase from './components/showcase/ChartShowcase';
 function App() {
   return (
     <div className="min-h-screen">
-      <Hero />
+      {/* Skip link for keyboard navigation */}
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
 
-      <main className="space-y-0">
+      <header>
+        <Hero />
+      </header>
+
+      <main id="main-content" className="space-y-0" aria-label="Design system components">
         <ColorPalette />
         <TypographyShowcase />
         <ButtonShowcase />
@@ -26,7 +33,7 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="py-16 bg-amethyst/50 border-t border-grey">
+      <footer className="py-16 bg-amethyst/50 border-t border-grey" role="contentinfo">
         <div className="container mx-auto px-4 text-center">
           <p className="text-silver mb-2">
             Villain Mode Design System

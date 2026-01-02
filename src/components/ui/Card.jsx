@@ -4,15 +4,19 @@ import clsx from 'clsx';
 const Card = ({
   children,
   hover = false,
+  as: Component = 'div',
   className,
   ...props
 }) => {
+  const isInteractive = hover || Component === 'button' || Component === 'a' || props.onClick || props.tabIndex === 0;
+
   const baseClasses = clsx(
     'bg-amethyst border border-indigo-dark p-6',
     'transition-all duration-300',
     'clip-angled',
     'rim-light-cyan',
-    'hover-lift'
+    'hover-lift',
+    isInteractive && 'focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan focus-visible:ring-offset-2 focus-visible:ring-offset-midnight-indigo'
   );
 
   const hoverClasses = hover && clsx(
@@ -27,7 +31,7 @@ const Card = ({
   );
 
   return (
-    <div
+    <Component
       className={clsx(
         baseClasses,
         hoverClasses,
@@ -36,7 +40,7 @@ const Card = ({
       {...props}
     >
       {children}
-    </div>
+    </Component>
   );
 };
 
