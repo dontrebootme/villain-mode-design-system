@@ -271,4 +271,44 @@
     animation: scanLine 4s linear infinite;
     pointer-events: none;
   }
+
+  /* Skip link for keyboard navigation */
+  .skip-link {
+    @apply absolute -top-full left-4 z-[9999] bg-amber text-midnight-indigo px-4 py-2 font-heading font-bold;
+    @apply focus:top-4 transition-all;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   ACCESSIBILITY - REDUCED MOTION
+   Respects user preferences for reduced motion (WCAG 2.3.3)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-in,
+  .animate-in-scale,
+  .animate-in-left {
+    opacity: 1;
+    transform: none;
+  }
+
+  .glow-pulse,
+  .text-glow-pulse,
+  .float-geometric {
+    animation: none;
+  }
+
+  .scan-line::after {
+    animation: none;
+    opacity: 0;
+  }
 }
