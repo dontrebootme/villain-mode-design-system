@@ -5,8 +5,8 @@
   "targets": {
     "spof-io": {
       "hosting": {
-        "villain-mode": [
-          "villain-mode"
+        "electric-geometric": [
+          "electric-geometric"
         ]
       }
     }

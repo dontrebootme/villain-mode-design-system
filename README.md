@@ -1,10 +1,10 @@
-# Villain Mode Design System
+# Electric Geometric Design System
 
 A bold, high-contrast design system with an **Electric Geometric** aesthetic. Features vibrant saturated colors, sharp angular geometry, and dramatic lighting effects inspired by low-poly vector art.
 
-**🌐 Live Demo:** [https://villain-mode.web.app](https://villain-mode.web.app)
+**🌐 Live Demo:** [https://electric-geometric.web.app](https://electric-geometric.web.app)
 
-![Villain Mode Design System](./screenshot.png)
+![Electric Geometric Design System](./screenshot.png)
 
 ## 🎨 Design Philosophy
 
@@ -169,7 +169,7 @@ import Card from './components/ui/Card';
 import Input from './components/ui/Input';
 
 <Input
-  placeholder="Enter villain name..."
+  placeholder="Enter your name..."
   value={value}
   onChange={(e) => setValue(e.target.value)}
 />

@@ -36,7 +36,7 @@ function App() {
       <footer className="py-16 bg-amethyst/50 border-t border-grey" role="contentinfo">
         <div className="container mx-auto px-4 text-center">
           <p className="text-silver mb-2">
-            Villain Mode Design System
+            Electric Geometric Design System
           </p>
           <p className="text-sm text-silver">
             Built with Vite, React, Tailwind CSS, and Recharts
