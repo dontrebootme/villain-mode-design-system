@@ -1,12 +1,12 @@
 {
-  "name": "villain-mode-design-system",
+  "name": "electric-geometric",
   "private": true,
   "version": "1.0.0",
-  "description": "A bold, high-contrast design system inspired by villain aesthetics and cosmic energy. Features dramatic colors, geometric precision, and sharp angular design elements.",
-  "homepage": "https://villain-mode.web.app",
+  "description": "A bold, high-contrast design system with an Electric Geometric aesthetic. Features vibrant saturated colors, sharp angular geometry, and dramatic lighting effects.",
+  "homepage": "https://electric-geometric.web.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dontrebootme/villain-mode-design-system.git"
+    "url": "https://github.com/dontrebootme/electric-geometric.git"
   },
   "keywords": [
     "design-system",
@@ -16,7 +16,7 @@
     "cosmic",
     "geometric",
     "dark-mode",
-    "villain-mode",
+    "electric-geometric",
     "vite"
   ],
   "type": "module",

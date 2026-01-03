@@ -1,8 +1,8 @@
-# Villain Mode Design System
+# Electric Geometric Design System
 
 A bold, high-contrast design system with an **Electric Geometric** aesthetic. Features vibrant saturated colors, sharp angular geometry, and dramatic lighting effects inspired by low-poly vector art.
 
-**🌐 Live Demo:** [https://villain-mode.web.app](https://villain-mode.web.app)
+**🌐 Live Demo:** [https://electric-geometric.web.app](https://electric-geometric.web.app)
 
 ![Villain Mode Design System](./screenshot.png)
 

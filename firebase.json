@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "villain-mode",
+    "site": "electric-geometric",
     "public": "dist",
     "ignore": [
       "firebase.json",
